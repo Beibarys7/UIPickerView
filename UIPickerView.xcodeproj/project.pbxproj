@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54777C8B263BFEB900AC48B4 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 54777C8A263BFEB900AC48B4 /* .gitignore */; };
 		A8F4596A20A1975000FA94F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F4596920A1975000FA94F4 /* AppDelegate.swift */; };
 		A8F4596C20A1975000FA94F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F4596B20A1975000FA94F4 /* ViewController.swift */; };
 		A8F4596F20A1975000FA94F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F4596D20A1975000FA94F4 /* Main.storyboard */; };
@@ -15,7 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A8F4596620A1975000FA94F4 /* UIElements.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIElements.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54777C8A263BFEB900AC48B4 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		A8F4596620A1975000FA94F4 /* UIPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F4596920A1975000FA94F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8F4596B20A1975000FA94F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A8F4596E20A1975000FA94F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +40,7 @@
 		A8F4595D20A1975000FA94F4 = {
 			isa = PBXGroup;
 			children = (
-				A8F4596820A1975000FA94F4 /* UIElements */,
+				A8F4596820A1975000FA94F4 /* UIPickerView */,
 				A8F4596720A1975000FA94F4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,22 +48,23 @@
 		A8F4596720A1975000FA94F4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A8F4596620A1975000FA94F4 /* UIElements.app */,
+				A8F4596620A1975000FA94F4 /* UIPickerView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A8F4596820A1975000FA94F4 /* UIElements */ = {
+		A8F4596820A1975000FA94F4 /* UIPickerView */ = {
 			isa = PBXGroup;
 			children = (
 				A8F4596920A1975000FA94F4 /* AppDelegate.swift */,
+				54777C8A263BFEB900AC48B4 /* .gitignore */,
 				A8F4596B20A1975000FA94F4 /* ViewController.swift */,
 				A8F4596D20A1975000FA94F4 /* Main.storyboard */,
 				A8F4597020A1976100FA94F4 /* Assets.xcassets */,
 				A8F4597220A1976100FA94F4 /* LaunchScreen.storyboard */,
 				A8F4597520A1976100FA94F4 /* Info.plist */,
 			);
-			path = UIElements;
+			path = UIPickerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -81,7 +84,7 @@
 			);
 			name = UIElements;
 			productName = UIElements;
-			productReference = A8F4596620A1975000FA94F4 /* UIElements.app */;
+			productReference = A8F4596620A1975000FA94F4 /* UIPickerView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A8F4596120A1975000FA94F4 /* Build configuration list for PBXProject "UIElements" */;
+			buildConfigurationList = A8F4596120A1975000FA94F4 /* Build configuration list for PBXProject "UIPickerView" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54777C8B263BFEB900AC48B4 /* .gitignore in Resources */,
 				A8F4597420A1976100FA94F4 /* LaunchScreen.storyboard in Resources */,
 				A8F4597120A1976100FA94F4 /* Assets.xcassets in Resources */,
 				A8F4596F20A1975000FA94F4 /* Main.storyboard in Resources */,
@@ -281,13 +285,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = UIElements/Info.plist;
+				INFOPLIST_FILE = UIPickerView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.swiftbook.UIElements;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.swiftbook.UIPickerView;
+				PRODUCT_NAME = UIPickerView;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,13 +302,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = UIElements/Info.plist;
+				INFOPLIST_FILE = UIPickerView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.swiftbook.UIElements;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.swiftbook.UIPickerView;
+				PRODUCT_NAME = UIPickerView;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -313,7 +317,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A8F4596120A1975000FA94F4 /* Build configuration list for PBXProject "UIElements" */ = {
+		A8F4596120A1975000FA94F4 /* Build configuration list for PBXProject "UIPickerView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A8F4597620A1976100FA94F4 /* Debug */,
